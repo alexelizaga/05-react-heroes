@@ -1,15 +1,16 @@
 import { Link, useLocation } from 'react-router-dom';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 export const MyNavbar = () => {
   const { pathname } = useLocation();
+  const navigate = useNavigate();
 
   const handleLogout = () => {
-    // TODO: 
-    console.log('logout')
+    navigate('/login', {
+      replace: true,
+    });
   };
-
-  
 
   return (
     <Navbar bg='dark' variant='dark' expand='sm'>
