@@ -1,15 +1,19 @@
-import { Link, useLocation } from 'react-router-dom';
-import { Navbar, Nav, Container, Button } from 'react-bootstrap';
-import { useNavigate } from 'react-router-dom';
 import { useContext } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { Navbar, Nav, Container, Button } from 'react-bootstrap';
+
 import { AuthContext } from '../../auth/authContext';
+import { types } from '../../types/types';
 
 export const MyNavbar = () => {
-  const { user } = useContext(AuthContext);
+  const { user, dispatch } = useContext(AuthContext);
   const navigate = useNavigate();
   const { pathname } = useLocation();
 
   const handleLogout = () => {
+    dispatch({
+      type: types.logout
+    });
     navigate('/login', {
       replace: true,
     });
