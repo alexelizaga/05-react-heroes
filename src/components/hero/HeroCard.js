@@ -11,32 +11,30 @@ export const HeroCard = ({
 }) => {
   const imagePath = `/assets/${id}.jpg`;
   return (
-    <div className='col-6 col-md-4 col-lg-3'>
-      <div className='card'>
-        <div className='row no-gutters'>
-          <div className='col-4'>
-            <img
-              className='card-img-top'
-              src={imagePath}
-              alt={superhero}
-            />
-          </div>
-          <div className='col-8'>
-            <div className='card-body'>
-              <h5 className='card-title'>{superhero}</h5>
-              <p className='card-text'>{alter_ego}</p>
-              {
-                (alter_ego !== characters) &&
-                  <p className='text-muted'>{characters}</p>
-              }
-              <p className='card-text'>
-                <small className='text-muted'>{first_appearance}</small>
-              </p>
+    <div className='card'>
+      <div className='row no-gutters'>
+        <div className='col-4'>
+          <img
+            className='card-img-top'
+            src={imagePath}
+            alt={superhero}
+          />
+        </div>
+        <div className='col-8'>
+          <div className='card-body'>
+            <h5 className='card-title'>{superhero}</h5>
+            <p className='card-text'>{alter_ego}</p>
+            {
+              (alter_ego !== characters) &&
+                <p className='text-muted'>{characters}</p>
+            }
+            <p className='card-text'>
+              <small className='text-muted'>{first_appearance}</small>
+            </p>
 
-              <Link to={`/hero/${id}`}>
-                Más...
-              </Link>
-            </div>
+            <Link to={`/hero/${id}`}>
+              Más...
+            </Link>
           </div>
         </div>
       </div>
