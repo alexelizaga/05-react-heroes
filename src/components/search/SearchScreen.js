@@ -18,8 +18,6 @@ export const SearchScreen = () => {
 
   const { searchText } = formValues;
 
-  // const heroesFiltered = getHeroesByName(searchText);
-
   const heroesFiltered = useMemo(() => getHeroesByName(searchText), [searchText])
 
   const handleSearch = (e) => {
