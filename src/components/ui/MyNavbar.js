@@ -1,10 +1,13 @@
 import { Link, useLocation } from 'react-router-dom';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
+import { useContext } from 'react';
+import { AuthContext } from '../../auth/authContext';
 
 export const MyNavbar = () => {
-  const { pathname } = useLocation();
+  const { user } = useContext(AuthContext);
   const navigate = useNavigate();
+  const { pathname } = useLocation();
 
   const handleLogout = () => {
     navigate('/login', {
@@ -45,7 +48,9 @@ export const MyNavbar = () => {
         </Navbar.Collapse>
 
         <Navbar.Collapse className="justify-content-end">
-          <Navbar.Text className='ml-3'>Alex</Navbar.Text>
+          <Navbar.Text className='text-info'>
+            { user.name }
+          </Navbar.Text>
           <Nav>
             <Button variant='dark' onClick={handleLogout}>Logout</Button>
           </Nav>
