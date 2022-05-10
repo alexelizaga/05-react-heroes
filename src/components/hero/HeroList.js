@@ -8,7 +8,7 @@ export const HeroList = ({ publisher }) => {
 
   return (
     <div
-      className="row row-cols-6 row-cols-md-4 row-cols-lg-3 g-3 animate__animated animate__fadeIn"
+      className="row row-cols-6 row-cols-md-4 row-cols-lg-3 d-flex align-items-stretch"
     >
       {
         heroes.map( hero => (

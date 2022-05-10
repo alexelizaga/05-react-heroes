@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import queryString from 'query-string'
 
@@ -17,7 +18,9 @@ export const SearchScreen = () => {
 
   const { searchText } = formValues;
 
-  const heroesFiltered = getHeroesByName(searchText);
+  // const heroesFiltered = getHeroesByName(searchText);
+
+  const heroesFiltered = useMemo(() => getHeroesByName(searchText), [searchText])
 
   const handleSearch = (e) => {
     e.preventDefault();
@@ -56,6 +59,12 @@ export const SearchScreen = () => {
         <div className='col-7'>
           <h4>Resultados</h4>
           <hr />
+          {
+            (heroesFiltered.length === 0)
+              && <div className='alert alert-danger animate__animated animate__fadeIn'>
+                No hay resultados para {searchText}
+              </div>
+          }
           {
             heroesFiltered.map(hero => (
               <div key={hero.id} className='mb-1'>
