@@ -37,7 +37,7 @@ export const MyNavbar = () => {
         </Navbar.Collapse>
 
         <Navbar.Collapse className="justify-content-end">
-          <Navbar.Text>Alex</Navbar.Text>
+          <Navbar.Text className='ml-3'>Alex</Navbar.Text>
           <Nav>
             <Button variant='dark' onClick={handleLogout}>Logout</Button>
           </Nav>
