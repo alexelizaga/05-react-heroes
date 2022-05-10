@@ -33,6 +33,14 @@ export const MyNavbar = () => {
             >
               DC
             </Nav.Link>
+
+            <Nav.Link
+              as={Link}
+              to='/search'
+              eventKey='/search'
+            >
+              Search
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
 
