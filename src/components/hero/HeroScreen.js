@@ -52,6 +52,7 @@ export const HeroScreen = () => {
         <h5 className='mt-5'>Characters</h5>
         <p>{characters}</p>
         <button
+          data-testid='HeroScreenReturnBtn'
           className='btn btn-outline-info'
           onClick={handleReturn}
         >
