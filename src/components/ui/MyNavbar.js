@@ -56,7 +56,7 @@ export const MyNavbar = () => {
             { user.name }
           </Navbar.Text>
           <Nav>
-            <Button variant='dark' onClick={handleLogout}>Logout</Button>
+            <Button data-testid='MyNavbarLogoutBtn' variant='dark' onClick={handleLogout}>Logout</Button>
           </Nav>
         </Navbar.Collapse>
       </Container>

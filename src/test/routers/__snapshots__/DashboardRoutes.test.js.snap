@@ -70,6 +70,7 @@ exports[`Test <DashboardRoutes /> should render correctly - DC 1`] = `
           >
             <button
               class="btn btn-dark"
+              data-testid="MyNavbarLogoutBtn"
               type="button"
             >
               Logout
@@ -743,6 +744,7 @@ exports[`Test <DashboardRoutes /> should render correctly - Marvel 1`] = `
           >
             <button
               class="btn btn-dark"
+              data-testid="MyNavbarLogoutBtn"
               type="button"
             >
               Logout

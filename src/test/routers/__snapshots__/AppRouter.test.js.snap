@@ -70,6 +70,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
           >
             <button
               class="btn btn-dark"
+              data-testid="MyNavbarLogoutBtn"
               type="button"
             >
               Logout
