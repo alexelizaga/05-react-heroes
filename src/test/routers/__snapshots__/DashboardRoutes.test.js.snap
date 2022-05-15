@@ -118,6 +118,7 @@ exports[`Test <DashboardRoutes /> should render correctly - DC 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Batman
                     </h5>
@@ -172,6 +173,7 @@ exports[`Test <DashboardRoutes /> should render correctly - DC 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Superman
                     </h5>
@@ -226,6 +228,7 @@ exports[`Test <DashboardRoutes /> should render correctly - DC 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Flash
                     </h5>
@@ -285,6 +288,7 @@ exports[`Test <DashboardRoutes /> should render correctly - DC 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Green Lantern
                     </h5>
@@ -344,6 +348,7 @@ exports[`Test <DashboardRoutes /> should render correctly - DC 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Green Arrow
                     </h5>
@@ -398,6 +403,7 @@ exports[`Test <DashboardRoutes /> should render correctly - DC 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Wonder Woman
                     </h5>
@@ -452,6 +458,7 @@ exports[`Test <DashboardRoutes /> should render correctly - DC 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Martian Manhunter
                     </h5>
@@ -511,6 +518,7 @@ exports[`Test <DashboardRoutes /> should render correctly - DC 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Robin/Nightwing
                     </h5>
@@ -565,6 +573,7 @@ exports[`Test <DashboardRoutes /> should render correctly - DC 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Blue Beetle
                     </h5>
@@ -624,6 +633,7 @@ exports[`Test <DashboardRoutes /> should render correctly - DC 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Black Canary
                     </h5>
@@ -781,6 +791,7 @@ exports[`Test <DashboardRoutes /> should render correctly - Marvel 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Spider Man
                     </h5>
@@ -835,6 +846,7 @@ exports[`Test <DashboardRoutes /> should render correctly - Marvel 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Captain America
                     </h5>
@@ -889,6 +901,7 @@ exports[`Test <DashboardRoutes /> should render correctly - Marvel 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Iron Man
                     </h5>
@@ -943,6 +956,7 @@ exports[`Test <DashboardRoutes /> should render correctly - Marvel 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Thor
                     </h5>
@@ -997,6 +1011,7 @@ exports[`Test <DashboardRoutes /> should render correctly - Marvel 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Hulk
                     </h5>
@@ -1051,6 +1066,7 @@ exports[`Test <DashboardRoutes /> should render correctly - Marvel 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Wolverine
                     </h5>
@@ -1105,6 +1121,7 @@ exports[`Test <DashboardRoutes /> should render correctly - Marvel 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Daredevil
                     </h5>
@@ -1159,6 +1176,7 @@ exports[`Test <DashboardRoutes /> should render correctly - Marvel 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Hawkeye
                     </h5>
@@ -1213,6 +1231,7 @@ exports[`Test <DashboardRoutes /> should render correctly - Marvel 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Cyclops
                     </h5>
@@ -1267,6 +1286,7 @@ exports[`Test <DashboardRoutes /> should render correctly - Marvel 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Silver Surfer
                     </h5>

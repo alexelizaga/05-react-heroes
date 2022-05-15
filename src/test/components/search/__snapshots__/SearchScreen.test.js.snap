@@ -21,6 +21,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
           <input
             autocomplete="off"
             class="form-control"
+            data-testid="SearchScreenInput"
             name="searchText"
             placeholder="Buscar un heroe"
             type="text"
@@ -71,6 +72,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Batman
                     </h5>
@@ -129,6 +131,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Superman
                     </h5>
@@ -187,6 +190,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Flash
                     </h5>
@@ -250,6 +254,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Green Lantern
                     </h5>
@@ -313,6 +318,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Green Arrow
                     </h5>
@@ -371,6 +377,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Wonder Woman
                     </h5>
@@ -429,6 +436,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Martian Manhunter
                     </h5>
@@ -492,6 +500,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Robin/Nightwing
                     </h5>
@@ -550,6 +559,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Blue Beetle
                     </h5>
@@ -613,6 +623,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Black Canary
                     </h5>
@@ -676,6 +687,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Spider Man
                     </h5>
@@ -734,6 +746,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Captain America
                     </h5>
@@ -792,6 +805,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Iron Man
                     </h5>
@@ -850,6 +864,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Thor
                     </h5>
@@ -908,6 +923,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Hulk
                     </h5>
@@ -966,6 +982,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Wolverine
                     </h5>
@@ -1024,6 +1041,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Daredevil
                     </h5>
@@ -1082,6 +1100,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Hawkeye
                     </h5>
@@ -1140,6 +1159,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Cyclops
                     </h5>
@@ -1198,6 +1218,7 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Silver Surfer
                     </h5>
@@ -1225,6 +1246,168 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Test <SearchScreen /> should search Batman 1`] = `
+<body>
+  <div>
+    <h1>
+      Búsquedas
+    </h1>
+    <hr />
+    <div
+      class="row"
+    >
+      <div
+        class="col-5"
+      >
+        <h4>
+          Buscar
+        </h4>
+        <hr />
+        <form>
+          <input
+            autocomplete="off"
+            class="form-control"
+            data-testid="SearchScreenInput"
+            name="searchText"
+            placeholder="Buscar un heroe"
+            type="text"
+            value="Batman"
+          />
+          <button
+            class="btn btn-outline-primary mt-1"
+            type="submit"
+          >
+            Buscar...
+          </button>
+        </form>
+      </div>
+      <div
+        class="col-7"
+      >
+        <h4>
+          Resultados
+        </h4>
+        <hr />
+        <div
+          class="mb-1"
+        >
+          <div
+            class="d-flex p-1"
+          >
+            <div
+              class="card animate__animated animate__fadeIn"
+              data-testid="HeroCard"
+            >
+              <div
+                class="row no-gutters"
+              >
+                <div
+                  class="col-4"
+                >
+                  <img
+                    alt="Batman"
+                    class="card-img-top"
+                    src="/assets/dc-batman.jpg"
+                  />
+                </div>
+                <div
+                  class="col-8"
+                >
+                  <div
+                    class="card-body"
+                  >
+                    <h5
+                      class="card-title"
+                      data-testid="HeroCardSuperHero"
+                    >
+                      Batman
+                    </h5>
+                    <p
+                      class="card-text"
+                    >
+                      Bruce Wayne
+                    </p>
+                    <p
+                      class="card-text"
+                    >
+                      <small
+                        class="text-muted"
+                      >
+                        Detective Comics #27
+                      </small>
+                    </p>
+                    <a
+                      href="/hero/dc-batman"
+                    >
+                      Más...
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Test <SearchScreen /> should show not found superhero error 1`] = `
+<body>
+  <div>
+    <h1>
+      Búsquedas
+    </h1>
+    <hr />
+    <div
+      class="row"
+    >
+      <div
+        class="col-5"
+      >
+        <h4>
+          Buscar
+        </h4>
+        <hr />
+        <form>
+          <input
+            autocomplete="off"
+            class="form-control"
+            data-testid="SearchScreenInput"
+            name="searchText"
+            placeholder="Buscar un heroe"
+            type="text"
+            value="Batman123"
+          />
+          <button
+            class="btn btn-outline-primary mt-1"
+            type="submit"
+          >
+            Buscar...
+          </button>
+        </form>
+      </div>
+      <div
+        class="col-7"
+      >
+        <h4>
+          Resultados
+        </h4>
+        <hr />
+        <div
+          class="alert alert-danger animate__animated animate__fadeIn"
+          data-testid="SearchScreenAlert"
+        >
+          No hay resultados para 
+          Batman123
         </div>
       </div>
     </div>

@@ -23,7 +23,7 @@ export const HeroCard = ({
           </div>
           <div className='col-8'>
             <div className='card-body'>
-              <h5 className='card-title'>{superhero}</h5>
+              <h5 data-testid='HeroCardSuperHero' className='card-title'>{superhero}</h5>
               <p className='card-text'>{alter_ego}</p>
               {
                 (alter_ego !== characters) &&

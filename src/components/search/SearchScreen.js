@@ -36,7 +36,8 @@ export const SearchScreen = () => {
           <hr />
           <form onSubmit={handleSearch}>
             <input
-            type='text'
+              data-testid='SearchScreenInput'
+              type='text'
               placeholder='Buscar un heroe'
               className='form-control'
               name='searchText'
@@ -59,7 +60,7 @@ export const SearchScreen = () => {
           <hr />
           {
             (heroesFiltered.length === 0)
-              && <div className='alert alert-danger animate__animated animate__fadeIn'>
+              && <div data-testid='SearchScreenAlert' className='alert alert-danger animate__animated animate__fadeIn'>
                 No hay resultados para {searchText}
               </div>
           }

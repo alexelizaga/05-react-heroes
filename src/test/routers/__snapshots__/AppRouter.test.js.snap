@@ -118,6 +118,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Spider Man
                     </h5>
@@ -172,6 +173,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Captain America
                     </h5>
@@ -226,6 +228,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Iron Man
                     </h5>
@@ -280,6 +283,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Thor
                     </h5>
@@ -334,6 +338,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Hulk
                     </h5>
@@ -388,6 +393,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Wolverine
                     </h5>
@@ -442,6 +448,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Daredevil
                     </h5>
@@ -496,6 +503,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Hawkeye
                     </h5>
@@ -550,6 +558,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Cyclops
                     </h5>
@@ -604,6 +613,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
                   >
                     <h5
                       class="card-title"
+                      data-testid="HeroCardSuperHero"
                     >
                       Silver Surfer
                     </h5>
