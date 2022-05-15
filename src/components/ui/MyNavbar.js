@@ -20,7 +20,7 @@ export const MyNavbar = () => {
   };
 
   return (
-    <Navbar bg='dark' variant='dark' expand='sm'>
+    <Navbar data-testid='MyNavbar' bg='dark' variant='dark' expand='sm'>
       <Container>
         <Navbar.Brand as={Link} to="/">Asociaciones</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

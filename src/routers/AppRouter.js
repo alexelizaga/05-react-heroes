@@ -15,7 +15,6 @@ export const AppRouter = () => {
             </PublicRoute>
           }
         />
-        {/* <Route path='/login' element={<LoginScreen />} /> */}
 
         <Route path='/*' element={
             <PrivateRoute>
@@ -23,7 +22,6 @@ export const AppRouter = () => {
             </PrivateRoute>
           } 
         />
-        {/* <Route path='/*' element={ <DashboardRoutes /> } /> */}
       </Routes>
     </BrowserRouter>
   )

@@ -26,10 +26,11 @@ export const LoginScreen = () => {
 
   return (
     <div className="container mt-5">
-      <h1>LoginScreen</h1>
+      <h1 data-testid='LoginScreenTitle'>Login</h1>
       <hr />
 
       <button
+        data-testid='LoginScreenBtn'
         className="btn btn-primary"
         onClick={handleLogin}
       >
