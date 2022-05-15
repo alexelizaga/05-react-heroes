@@ -14,10 +14,10 @@ describe('Test <DashboardRoutes />', () => {
     }
   };
 
-  test('should render correctly', () => {
+  test('should render correctly - Marvel', () => {
     const view = render(
       <AuthContext.Provider value={ contextValue }>
-        <MemoryRouter>
+        <MemoryRouter initialEntries={['/']}>
           <DashboardRoutes />
         </MemoryRouter>
       </AuthContext.Provider>
@@ -26,6 +26,23 @@ describe('Test <DashboardRoutes />', () => {
 
     const userName = screen.queryByTestId('MyNavbarUserName');
     expect(userName.textContent.trim()).toBe(contextValue.user.name);
+
+    const marvelScreenTitle = screen.queryByTestId('MarvelScreenTitle');
+    expect(marvelScreenTitle.textContent.trim()).toBe('Marvel');
+  });
+
+  test('should render correctly - DC', () => {
+    const view = render(
+      <AuthContext.Provider value={ contextValue }>
+        <MemoryRouter initialEntries={['/dc']}>
+          <DashboardRoutes />
+        </MemoryRouter>
+      </AuthContext.Provider>
+    );
+    expect(view.baseElement).toMatchSnapshot();
+
+    const dcScreenTitle = screen.queryByTestId('DcScreenTitle');
+    expect(dcScreenTitle.textContent.trim()).toBe('DC');
   });
 
 });
