@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] = `
+exports[`Test <DashboardRoutes /> should render correctly 1`] = `
 <body>
   <div>
     <nav
@@ -34,7 +34,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
             class="me-auto navbar-nav"
           >
             <a
-              class="nav-link active"
+              class="nav-link"
               data-rr-ui-event-key="/marvel"
               href="/marvel"
             >
@@ -63,7 +63,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
             class="text-info navbar-text"
             data-testid="MyNavbarUserName"
           >
-            Pepe
+            Alex
           </span>
           <div
             class="navbar-nav"
@@ -623,29 +623,6 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</body>
-`;
-
-exports[`Test <AppRouter /> should show login if user is not authenticated 1`] = `
-<body>
-  <div>
-    <div
-      class="container mt-5"
-    >
-      <h1
-        data-testid="LoginScreenTitle"
-      >
-        Login
-      </h1>
-      <hr />
-      <button
-        class="btn btn-primary"
-        data-testid="LoginScreenBtn"
-      >
-        Login
-      </button>
     </div>
   </div>
 </body>

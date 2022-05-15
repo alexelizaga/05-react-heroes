@@ -52,7 +52,7 @@ export const MyNavbar = () => {
         </Navbar.Collapse>
 
         <Navbar.Collapse className="justify-content-end">
-          <Navbar.Text className='text-info'>
+          <Navbar.Text data-testid='MyNavbarUserName' className='text-info'>
             { user.name }
           </Navbar.Text>
           <Nav>
