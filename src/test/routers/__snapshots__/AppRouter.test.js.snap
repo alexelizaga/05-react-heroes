@@ -96,6 +96,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
           >
             <div
               class="card animate__animated animate__fadeIn"
+              data-testid="HeroCard"
             >
               <div
                 class="row no-gutters"
@@ -149,6 +150,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
           >
             <div
               class="card animate__animated animate__fadeIn"
+              data-testid="HeroCard"
             >
               <div
                 class="row no-gutters"
@@ -202,6 +204,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
           >
             <div
               class="card animate__animated animate__fadeIn"
+              data-testid="HeroCard"
             >
               <div
                 class="row no-gutters"
@@ -255,6 +258,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
           >
             <div
               class="card animate__animated animate__fadeIn"
+              data-testid="HeroCard"
             >
               <div
                 class="row no-gutters"
@@ -308,6 +312,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
           >
             <div
               class="card animate__animated animate__fadeIn"
+              data-testid="HeroCard"
             >
               <div
                 class="row no-gutters"
@@ -361,6 +366,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
           >
             <div
               class="card animate__animated animate__fadeIn"
+              data-testid="HeroCard"
             >
               <div
                 class="row no-gutters"
@@ -414,6 +420,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
           >
             <div
               class="card animate__animated animate__fadeIn"
+              data-testid="HeroCard"
             >
               <div
                 class="row no-gutters"
@@ -467,6 +474,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
           >
             <div
               class="card animate__animated animate__fadeIn"
+              data-testid="HeroCard"
             >
               <div
                 class="row no-gutters"
@@ -520,6 +528,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
           >
             <div
               class="card animate__animated animate__fadeIn"
+              data-testid="HeroCard"
             >
               <div
                 class="row no-gutters"
@@ -573,6 +582,7 @@ exports[`Test <AppRouter /> should show <Marvel /> if user is authenticated 1`] 
           >
             <div
               class="card animate__animated animate__fadeIn"
+              data-testid="HeroCard"
             >
               <div
                 class="row no-gutters"
