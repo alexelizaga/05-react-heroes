@@ -1,8 +1,15 @@
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 
 import { SearchScreen } from '../../../components/search/SearchScreen';
 import { heroes } from '../../../data/heroes';
+
+const mockNavigate = jest.fn();
+
+jest.mock('react-router-dom', () => ({
+  ...jest.requireActual('react-router-dom'),
+  useNavigate: () => mockNavigate,
+}));
 
 describe('Test <SearchScreen />', () => {
 
@@ -49,6 +56,27 @@ describe('Test <SearchScreen />', () => {
 
     const searchScreenAlert = screen.queryByTestId('SearchScreenAlert');
     expect( searchScreenAlert.textContent.trim() ).toBe( 'No hay resultados para Batman123' );
+  });
+
+  test('should call navigate', () => {
+    render(
+      <MemoryRouter initialEntries={['/search']}>
+        <SearchScreen />
+      </MemoryRouter>
+    );
+
+    const searchScreenInput = screen.queryByTestId('SearchScreenInput');
+    fireEvent.change(searchScreenInput, {
+      target: {
+        name: 'searchText',
+        value: 'Batman',
+      }
+    });
+
+    const searchScreenForm = screen.queryByTestId('SearchScreenForm');
+    fireEvent.submit(searchScreenForm, {});
+
+    expect(mockNavigate).toBeCalledWith('?q=Batman');
   });
 
 });

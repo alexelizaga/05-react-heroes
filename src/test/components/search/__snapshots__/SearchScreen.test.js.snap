@@ -17,7 +17,9 @@ exports[`Test <SearchScreen /> should render correctly 1`] = `
           Buscar
         </h4>
         <hr />
-        <form>
+        <form
+          data-testid="SearchScreenForm"
+        >
           <input
             autocomplete="off"
             class="form-control"
@@ -1270,7 +1272,9 @@ exports[`Test <SearchScreen /> should search Batman 1`] = `
           Buscar
         </h4>
         <hr />
-        <form>
+        <form
+          data-testid="SearchScreenForm"
+        >
           <input
             autocomplete="off"
             class="form-control"
@@ -1377,7 +1381,9 @@ exports[`Test <SearchScreen /> should show not found superhero error 1`] = `
           Buscar
         </h4>
         <hr />
-        <form>
+        <form
+          data-testid="SearchScreenForm"
+        >
           <input
             autocomplete="off"
             class="form-control"

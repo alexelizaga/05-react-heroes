@@ -22,7 +22,6 @@ export const SearchScreen = () => {
 
   const handleSearch = (e) => {
     e.preventDefault();
-    console.log(searchText);
     navigate(`?q=${searchText}`)
   }
 
@@ -34,7 +33,7 @@ export const SearchScreen = () => {
         <div className="col-5">
           <h4>Buscar</h4>
           <hr />
-          <form onSubmit={handleSearch}>
+          <form data-testid='SearchScreenForm' onSubmit={handleSearch}>
             <input
               data-testid='SearchScreenInput'
               type='text'
