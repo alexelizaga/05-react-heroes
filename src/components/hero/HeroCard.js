@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { heroImages } from '../../helpers/heroImages';
 
 export const HeroCard = ({
   id,
@@ -9,7 +10,7 @@ export const HeroCard = ({
   first_appearance,
   characters,
 }) => {
-  const imagePath = `/assets/${id}.jpg`;
+  const imagePath = heroImages(`./${id}.jpg`);
   return (
     <div className='d-flex p-1'>
       <div data-testid='HeroCard' className='card animate__animated animate__fadeIn'>
